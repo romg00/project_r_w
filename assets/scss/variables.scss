@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&family=Source+Code+Pro:wght@200;400;700&display=swap');
+
+
+// FONTS
+$roboto_mono: 'Roboto Mono', monospace;
+$source_code: 'Source Code Pro', monospace;
+
+// COLORS
+$jet: #353535ff;
+$ming: #3c6e71ff;
+$white: #ffffffff;
+$gainsboro: #d9d9d9ff;
+$indigo-dye: #284b63ff;
+
+$jet_b: #363636ff;
+$gunmetal: #242f40ff;
+$satin-sheen-gold: #cca43bff;
+$platinum: #e5e5e5ff;
+$white: #ffffffff;
+
+$space-cadet: #2d3142ff;
+$silver: #bfc0c0ff;
+$mandarin: #ef8354ff;
+$independence: #4f5d75ff;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $roboto_mono;
+}
+p,
+a,
+strong,
+small {
+    font-family: $source_code;
+}

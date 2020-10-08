@@ -1,22 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&family=Source+Code+Pro:wght@200;400;700&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Mono", monospace;
+}
+
+p,
+a,
+strong,
+small {
+  font-family: "Source Code Pro", monospace;
+}
+
+.colors {
+  height: 50vh;
+  border: 1px solid #726564;
+}
+
+.center-h-v {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .color-1 {
-  height: 32.9vh;
-  width: 99vw;
+  height: 25vh;
+  width: 25vw;
   margin: 0.2rem;
   background: #353535;
   background: linear-gradient(135deg, #363636 17%, #3c6e71 34%, #ffffff 51%, #d9d9d9 68%, #284b63 85%);
 }
 
 .color-2 {
-  height: 32.9vh;
-  width: 99vw;
+  height: 25vh;
+  width: 25vw;
   margin: 0.2rem;
   background: #353535;
-  background: linear-gradient(45deg, #363636 17%, #242f40 34%, #cca43b 51%, #e5e5e5 68%, #ffffff 85%);
+  background: linear-gradient(135deg, #353535 17%, #242f40 34%, #cca43b 51%, #e5e5e5 68%, #ffffff 85%);
 }
 
 .color-3 {
-  height: 32.9vh;
-  width: 99vw;
+  height: 25vh;
+  width: 25vw;
   margin: 0.2rem;
   background: #353535;
   background: linear-gradient(135deg, #2d3142 17%, #bfc0c0 34%, #ffffff 51%, #ef8354 68%, #4f5d75 85%);
